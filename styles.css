@@ -13,11 +13,13 @@ box-sizing: border-box;
 
 
 html {
-
+    box-sizing: border-box;
 }
 
 body {
     margin: 0;
+    font-family: -apple-system, "Helvetica Neue", "Lucida Grande";
+
 }
 
 
@@ -43,6 +45,8 @@ nav {
     transform: scale(1,0);
     transform-origin: top;
     transition: transform 400ms ease-in-out;
+   
+    
    
   
 }
@@ -160,9 +164,897 @@ margin-top: 0px;
 
 
 
-@media only screen and (min-width:768px) {
+
+
+
+
+
+/* IMac */
+
+
+.evaluate {
+    display:inline-block;
+    background-color: #0071E3;
+    padding: 2rem;
+    width: 100%;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    padding: 1.3rem;
+    font-size: 0.9rem;
+}
+
+
+.evaluate:hover {
+  text-decoration: underline;
+
+}
+
+.fa-chevron-right {
+    font-size: 0.7rem;
+}
+
+
+.shop_box {
+    text-align: center;
+    background-color: #eeeeee;
+    margin: 0px;
+    padding: 1.1rem;
+}
+
+.shop_box > a {
+    text-decoration: none;
+    color:#0071E3;
+    font-size: 0.9rem;
+}
+
+
+
+.shop_box > a:hover {
+    text-decoration: underline;
+
+}
+
+
+
+
+.Imac_texts {
+display:inline-block;
+margin-top: 0px;
+background: url("Images/hero_mob.jpg");
+width: 100%;    
+background-size: cover;             
+background-repeat:no-repeat;
+background-position: center center; 
+height: 85vh;
+text-align: center;
+text-decoration: none;
+color:black;
+position: relative;
+
+
+}
+
+
+.Imac_texts > h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+
+
+.Imac_texts > p {
+    color:#777777;
+}
+
+.say_hello {
+    color:black !important;
+    margin-top: 0px;
+}
+
+.Imac_texts > a {
+    text-decoration: none;
+    color:#0071E3;
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+
+
+
+
+/* Iphone 12*/
+
+.Iphone_12_texts {
+display:inline-block;
+margin-top: 0px;
+background: url("Images/iphone\ 12\ mobile.jpg");
+width: 100%;    
+background-size: cover;             
+background-repeat:no-repeat;
+background-position: center center; 
+height: 85vh;
+text-align: center;
+text-decoration: none;
+color:black;
+position: relative;
+padding:2rem;
+}
+
+.Iphone_12_texts > h2 {
+    font-size: 1.9rem;
+}
+
+.from_text {
+    color:#777777;
+}
+
+
+.Iphone_12_texts  > a {
+    text-decoration: none;
+    color:#0071E3;
+    margin: 1rem;
+    font-size: 1.1rem;
+}
+
+
+
+/* Iphone 12 pro*/
+.Iphone_12_pro_texts {
+    display:inline-block;
+    margin-top: 0px;
+    background: url("Images/iphone\ 12\ pro\ mobile.jpg");
+    width: 100%;    
+    background-size: cover;             
+    background-repeat:no-repeat;
+    background-position: center center; 
+    height: 85vh;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    position: relative;
+    padding:1rem;
+    }
+
+
+
+    .Iphone_12_pro_texts > a {
+        text-decoration: none;
+        color:#0071E3;
+        margin: 1rem;
+        font-size: 1.1rem;
+    }
+
+
+    .Iphone_12_pro_texts p {
+       color:#777777;
+    }
+
+
+
+
+    /* privacy */
+
+    .privacy {
+    
+        padding:1rem;
+        padding-top: 8rem;
+        background-color: black;
+        height:70vh;
+        color:white;
+        text-align: center;
+    }
+
+    .privacy > p {
+        color:#777777;
+    }
+
+    .privacy > img {
+        height:3.5rem;
+    }
+
+
+    .privacy > a {
+        text-decoration: none;
+        color:#0071E3;
+        margin: 0.1rem;
+        font-size: 1.1rem;
+    }
+
+
+    .fa-play-circle {
+        font-size: 1rem;
+        margin-left: 0.4rem;
+    }
+
+
+
+
+    /* Ipad Pro */
+
+    .Ipad_pro_texts {
+        display:inline-block;
+        margin-top: 0px;
+        background: url("Images/ipad_mobile.jpg");
+        width: 100%;    
+        background-size: cover;             
+        background-repeat:no-repeat;
+        background-position: center center; 
+        height: 85vh;
+        text-align: center;
+        text-decoration: none;
+        color:white;
+        position: relative;
+        padding:1rem;
+        }
+
+    .Ipad_pro_texts > h2 {
+        font-size: 2rem;
+    }
+
+    .super {
+        font-size: 1.2rem;
+       
+    }
+
+    .order {
+        color:#777777;
+        font-size: 0.9rem;
+    }
+
+
+    .Ipad_pro_texts > a {
+        text-decoration: none;
+        color:#0071E3;
+        margin: 0.1rem;
+        font-size: 1.1rem;
+    }
+
+
+
+
+     /* Apple watch */
+
+     .apple_watch_texts {
+        display:inline-block;
+        margin-top: 0px;
+        background: url("Images/watch.jpg");
+        width: 100%;    
+        background-size: cover;             
+        background-repeat:no-repeat;
+        background-position: center center; 
+        height: 85vh;
+        text-align: center;
+        text-decoration: none;
+        color:white;
+        position: relative;
+        padding:1rem;
+        }
+
+
+    .apple_watch_texts > img {
+        height:3.5rem;
+    }
+
+
+    .apple_watch_texts > a {
+        text-decoration: none;
+        color:#0071E3;
+        margin: 0.1rem;
+        font-size: 1.1rem;
+    }
+
+
+   
+    /* Moms day */
+
+    .moms_day_texts{
+        display:inline-block;
+        margin-top: 0px;
+        background: url("Images/moms.jpg");
+        width: 100%;    
+        background-size: cover;             
+        background-repeat:no-repeat;
+        background-position: center center; 
+        height: 85vh;
+        text-align: center;
+        text-decoration: none;
+        color:white;
+        position: relative;
+        padding:1rem;
+        }
+
+
+        .moms_day_texts > h2 {
+            font-size: 2rem;
+            color:black;
+        }
+
+
+
+
+        .moms_day_texts > a {
+        text-decoration: none;
+        color:#0071E3;
+        margin: 0.1rem;
+        font-size: 1.1rem;
+        display: block;
+    }
+
+
+
+
+
+/* Card */
+
+
+.card_texts{
+    display:inline-block;
+    margin-top: 0px;
+    background: url("Images/card.jpg");
+    width: 100%;    
+    background-size: cover;             
+    background-repeat:no-repeat;
+    background-position: center center; 
+    height: 85vh;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    position: relative;
+    padding:1rem;
+    }
+
+    .card_texts > img {
+        height:1.9rem;
+    }
+
+
+    .card_texts > a {
+        text-decoration: none;
+        color:#0071E3;
+        margin: 0.1rem;
+        font-size: 1.1rem;
+        display: block;
+    }
+
+
+
+
+    /* the year */
+
+    .the_year {
+        position: relative;
+    }
+    
+    .the_year_texts{
+        display:inline-block;
+        margin-top: 0px;
+        background: url("Images/penguin.jpg");
+        width: 100%;    
+        background-size: cover;             
+        background-repeat:no-repeat;
+        background-position: center center; 
+        height: 85vh;
+        text-align: center;
+        text-decoration: none;
+        color:black;
+        position: relative;
+        padding:2rem;
+        display:flex;
+        flex-direction: column;
+        align-items:  center;
+        }
+    
+
+
+
+    .the_year_texts > img {
+        height:1.9rem;
+        
+    }
+
+    .the_year_writing_img {
+        height:3rem !important;
+    }
+
+    .the_year_texts > p {
+        position: absolute;
+        top:80%;
+        text-align: center;
+        color:white;
+    }
+
+
+    .the_year_texts > a {
+        position: absolute;
+        top:90%;
+       
+        text-align: center;
+        color:white;
+        text-decoration: none;
+    }
+
+
+
+    /* footer_texts */
+
+    .footer_texts {
+        background-color: #eeeeee;
+        color:#777777;
+        font-size: 0.8rem;
+    }
+
+    .terms_text {
+        color:black !important;
+        text-decoration: none;
+    }
+
+
+
+
+    /* footer_drops */
+
+
+    .footer_hr1 {
+        margin-left: 0px;
+         min-width:100%;
+          border-color:#86868B;
+          margin-top:1rem;
+          margin-bottom: 2rem;
+        
+        }
+      
+    
+       
+
+    .footer_hr {
+       margin-left: 0px;
+        min-width:100%;
+         border-color:#86868B;
+     
+   
+       
+    }
+    
+
+    .footer_drops {
+        display:flex;
+        flex-direction: column;
+        /* padding-left:0.5rem;
+        padding-right:0.5rem; */
+    }
+
+
+    /* shop and learn drops */
+    button {
+        display:flex;
+        justify-content: space-between;
+        border: none;
+        background-color: transparent;
+    }
+
+
+    button:focus {
+        outline:none;
+    }
+
+    .dropdown-check {
+        display:none;
+    }
+    
+    .dropdown {
+  
+    max-width: 82.9%;
+    margin:auto;
+    height:100%;
+    color:white;
+    font-size: 1.2rem;
+    padding:1rem;
+    display:none;
+  
+ 
+    }
+
+    .dropdown-check:checked ~ .dropdown {
+        display: block;
+        display:flex;
+        flex-direction: column;
+        align-items: start;
+        margin: 0px;
+     
+    }
+
+
+    .dropdown a {
+        text-decoration: none;
+        color:#777777;
+        font-size:0.8rem;
+        margin:1rem;
+    }
+
+
+
+
+
+
+      /* services drops */
+
+
+      .dropdown-check2 {
+        display:none;
+    }
+    
+    .dropdown2 {
+  
+    max-width: 82.9%;
+    margin:auto;
+    height:100%;
+    color:white;
+    font-size: 1.2rem;
+    padding:1rem;
+    display:none;
+  
+ 
+    }
+
+    .dropdown-check2:checked ~ .dropdown2 {
+        display: block;
+        display:flex;
+        flex-direction: column;
+        align-items: start;
+        margin: 0px;
+     
+    }
+
+
+    .dropdown2 a {
+        text-decoration: none;
+        color:#777777;
+        font-size:0.8rem;
+        margin:1rem;
+    }
+
+
+
+
+
+
+
+
+
+
+    /* account drops */
+
+
+    .dropdown-check3 {
+        display:none;
+    }
+    
+    .dropdown3 {
+  
+    max-width: 82.9%;
+    margin:auto;
+    height:100%;
+    color:white;
+    font-size: 1.2rem;
+    padding:1rem;
+    display:none;
+  
+ 
+    }
+
+    .dropdown-check3:checked ~ .dropdown3 {
+        display: block;
+        display:flex;
+        flex-direction: column;
+        align-items: start;
+        margin: 0px;
+     
+    }
+
+
+    .dropdown3 a {
+        text-decoration: none;
+        color:#777777;
+        font-size:0.8rem;
+        margin:1rem;
+    }
+
+
+
+
+    /* apple store drops*/
+
+
+    .dropdown-check4 {
+        display:none;
+    }
+    
+    .dropdown4 {
+  
+    max-width: 82.9%;
+    margin:auto;
+    height:100%;
+    color:white;
+    font-size: 1.2rem;
+    padding:1rem;
+    display:none;
+  
+ 
+    }
+
+    .dropdown-check4:checked ~ .dropdown4 {
+        display: block;
+        display:flex;
+        flex-direction: column;
+        align-items: start;
+        margin: 0px;
+     
+    }
+
+
+    .dropdown4 a {
+        text-decoration: none;
+        color:#777777;
+        font-size:0.8rem;
+        margin:1rem;
+    }
+
+
+
+
+       /* for business drops*/
+
+
+    .dropdown-check5 {
+        display:none;
+    }
+    
+    .dropdown5 {
+  
+    max-width: 82.9%;
+    margin:auto;
+    height:100%;
+    color:white;
+    font-size: 1.2rem;
+    padding:1rem;
+    display:none;
+  
+ 
+    }
+
+    .dropdown-check5:checked ~ .dropdown5 {
+        display: block;
+        display:flex;
+        flex-direction: column;
+        align-items: start;
+        margin: 0px;
+     
+    }
+
+
+    .dropdown5 a {
+        text-decoration: none;
+        color:#777777;
+        font-size:0.8rem;
+        margin:1rem;
+    }
+
+
+
+
+       /* for education drops*/
+
+
+    .dropdown-check6 {
+        display:none;
+    }
+    
+    .dropdown6 {
+  
+    max-width: 82.9%;
+    margin:auto;
+    height:100%;
+    color:white;
+    font-size: 1.2rem;
+    padding:1rem;
+    display:none;
+  
+ 
+    }
+
+    .dropdown-check6:checked ~ .dropdown6 {
+        display: block;
+        display:flex;
+        flex-direction: column;
+        align-items: start;
+        margin: 0px;
+     
+    }
+
+
+    .dropdown6 a {
+        text-decoration: none;
+        color:#777777;
+        font-size:0.8rem;
+        margin:1rem;
+    }
+
+
+
+
+    /* for healthcare drops */
 
   
+
+
+    .dropdown-check7 {
+        display:none;
+    }
+
+    .dropdown7 {
+
+    max-width: 82.9%;
+    margin:auto;
+    height:100%;
+    color:white;
+    font-size: 1.2rem;
+    padding:1rem;
+    display:none;
+
+
+    }
+
+    .dropdown-check7:checked ~ .dropdown7 {
+        display: block;
+        display:flex;
+        flex-direction: column;
+        align-items: start;
+        margin: 0px;
+    
+    }
+
+
+    .dropdown7 a {
+        text-decoration: none;
+        color:#777777;
+        font-size:0.8rem;
+        margin:1rem;
+    }
+
+
+
+
+
+       /* for government drops*/
+
+
+       .dropdown-check8 {
+        display:none;
+    }
+    
+    .dropdown8 {
+  
+    max-width: 82.9%;
+    margin:auto;
+    height:100%;
+    color:white;
+    font-size: 1.2rem;
+    padding:1rem;
+    display:none;
+  
+ 
+    }
+
+    .dropdown-check8:checked ~ .dropdown8 {
+        display: block;
+        display:flex;
+        flex-direction: column;
+        align-items: start;
+        margin: 0px;
+     
+    }
+
+
+    .dropdown8 a {
+        text-decoration: none;
+        color:#777777;
+        font-size:0.8rem;
+        margin:1rem;
+    }
+
+
+
+
+
+       /* apple values drops*/
+
+     .dropdown-check9 {
+        display:none;
+    }
+    
+    .dropdown9 {
+  
+    max-width: 82.9%;
+    margin:auto;
+    height:100%;
+    color:white;
+    font-size: 1.2rem;
+    padding:1rem;
+    display:none;
+  
+ 
+    }
+
+    .dropdown-check9:checked ~ .dropdown9 {
+        display: block;
+        display:flex;
+        flex-direction: column;
+        align-items: start;
+        margin: 0px;
+     
+    }
+
+
+    .dropdown9 a {
+        text-decoration: none;
+        color:#777777;
+        font-size:0.8rem;
+        margin:1rem;
+    }
+
+
+
+
+       /* about apple drops*/
+
+
+       .dropdown-check10 {
+        display:none;
+    }
+    
+    .dropdown10 {
+  
+    max-width: 82.9%;
+    margin:auto;
+    height:100%;
+    color:white;
+    font-size: 1.2rem;
+    padding:1rem;
+    display:none;
+  
+ 
+    }
+
+    .dropdown-check10:checked ~ .dropdown10 {
+        display: block;
+        display:flex;
+        flex-direction: column;
+        align-items: start;
+        margin: 0px;
+     
+    }
+
+
+    .dropdown10 a {
+        text-decoration: none;
+        color:#777777;
+        font-size:0.8rem;
+        margin:1rem;
+    }
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:768px) {
+
+    /* Navbar */
 
     .header {
         display: none;
@@ -176,6 +1068,7 @@ margin-top: 0px;
         all:unset;
       
        transform: scale(0,0);
+       
      
        
     }
@@ -207,6 +1100,7 @@ margin-top: 0px;
         padding: 1rem;
        height: 3rem;
        background-color:#303030;
+
     }
 
 
