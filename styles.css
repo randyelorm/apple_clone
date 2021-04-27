@@ -14,11 +14,12 @@ box-sizing: border-box;
 
 html {
     box-sizing: border-box;
+
 }
 
 body {
     margin: 0;
-    font-family: -apple-system, "Helvetica Neue", "Lucida Grande";
+    
 
 }
 
@@ -338,13 +339,16 @@ padding:2rem;
     .privacy {
     
         padding:1rem;
-        padding-top: 8rem;
+        padding-top: 3rem;
         background-color: black;
         height:70vh;
         color:white;
         text-align: center;
     }
 
+    .privacy h2 {
+        font-size: 2.3rem;
+    }
     .privacy > p {
         color:#777777;
     }
@@ -578,8 +582,12 @@ padding:2rem;
 
     /* footer_texts */
 
-    .footer_texts {
+    footer {
         background-color: #eeeeee;
+    }
+
+    .footer_texts {
+      
         color:#777777;
         font-size: 0.8rem;
     }
@@ -623,7 +631,11 @@ padding:2rem;
         display:flex;
         flex-direction: column;
        
+
+       
     }
+
+   
 
 
     /* shop and learn drops */
@@ -1059,7 +1071,7 @@ padding:2rem;
     }
 
     .footer_end > p {
-        color:#777777;
+       
         font-size: 0.8rem;
     }
 
@@ -1068,6 +1080,17 @@ padding:2rem;
         text-decoration: none;
     }
 
+    .footer_drops_query_box {
+        display:none;
+    }
+
+    .footer_end_query {
+        display:none;
+    }
+
+    .copy_rights_query {
+        display:none;
+    }
 
 
 
@@ -1093,12 +1116,22 @@ padding:2rem;
 
 
 
-
+    .privacy_nd_ipad_query {
+        display: none;
+    }
    
+    .watch_nd_mom_query {
+        display:none;
+    }
+
+    .card_nd_year_query {
+        display:none;
+    }
 
 
-
-
+    .footer_drops_query {
+        display:none;
+    }
 
 
 
@@ -1163,6 +1196,544 @@ padding:2rem;
         
         text-decoration:none;
     }
+
+
+
+
+
+    /* IMaC */
+
+
+
+.Imac_texts {
+    display:inline-block;
+    margin-top: 0px;
+    background: url("Images/hero_desk.jpg");
+    width: 100%;    
+    background-size: cover;             
+    background-repeat:no-repeat;
+    background-position: center center; 
+    height: 82vh;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    position: relative;
+    
+    
+    }
+
+        
+        
+        .Imac_texts > h2 {
+            font-size: 4rem;
+            font-weight: bold;
+            margin: 0px;
+           
+        }
+        
+        
+        
+        .Imac_texts > p {
+            font-size: 1.4rem;
+           
+        }
+
+
+
+
+
+        
+      /* Iphone 12*/
+
+        .Iphone_12_texts {
+        display:inline-block;
+        margin-top: 0px;
+        background: url("Images/iphone\ 12\ desktop.jpg");
+        width: 100%;    
+        background-size: 100% 140%;  
+            
+        background-repeat:no-repeat;
+        background-position: center center; 
+        height: 70vh;
+        text-align: center;
+        text-decoration: none;
+        color:black;
+        position: relative;
+        padding:2rem;
+        }
+
+        .Iphone_12_texts > h2 {
+            font-size: 1.9rem;
+        }
+
+
+
+
+        /* Iphone 12 pro*/
+           .Iphone_12_pro_texts {
+            display:inline-block;
+            margin-top: 0px;
+            background: url("Images/iphone\ 12\ pro\ desktop.jpg");
+            width: 100%;    
+            background-size: cover;             
+            background-repeat:no-repeat;
+            background-position: center center; 
+            height: 85vh;
+            text-align: center;
+            text-decoration: none;
+            color:white;
+            position: relative;
+            padding:1rem;
+            }
+
+
+
+
+           
+
+
+            .Iphone_12_pro_texts >h2 {
+                font-size: 2.2rem;
+                margin: 0px;
+            }
+
+
+            .privacy  .Ipad_pro {
+                display: flex;
+            }
+
+
+            /* Privacy nd IPad Pro queries*/
+
+            .privacy{ display:none;}
+            .Ipad_pro{display:none;}
+
+        
+            .privacy_nd_ipad_query {
+                display: flex;
+                margin: 0px;
+                
+                
+            }
+
+            .privacy_nd_ipad_query > * {
+                width: 100%;
+
+            }
+
+            .privacy_query {
+    
+                padding:1rem;
+                padding-top: 3rem;
+                background-color: black;
+              
+                color:white;
+                text-align: center;
+                margin: 0.5rem;
+               
+            }
+        
+            .privacy_query h2 {
+                font-size: 2.3rem;
+            }
+            .privacy_query > p {
+                color:#777777;
+            }
+        
+            .privacy_query > img {
+                height:3.5rem;
+            }
+        
+        
+            .privacy_query> a {
+                text-decoration: none;
+                color:#0071E3;
+                margin: 0.1rem;
+                font-size: 1.1rem;
+            }
+        
+        
+            .fa-play-circle {
+                font-size: 1rem;
+                margin-left: 0.4rem;
+            }
+
+
+
+            .Ipad_pro_query {
+                margin: 0.5rem;
+            }
+
+
+            .Ipad_pro_query_texts {
+                display:inline-block;
+                margin-top: 0px;
+                background: url("Images/ipad_desktop.jpg");
+                width: 100%;    
+                background-size: cover;             
+                background-repeat:no-repeat;
+                background-position: center center; 
+                height: 85vh;
+                text-align: center;
+                text-decoration: none;
+                color:white;
+                position: relative;
+                padding:1rem;
+                }
+        
+            .Ipad_pro_query_texts > h2 {
+                font-size: 2rem;
+                margin-bottom: 0.3rem;
+            }
+        
+            .super {
+                margin-top: 0.3rem;
+                font-size: 1.2rem;
+               
+            }
+        
+            .order {
+                color:#777777;
+                font-size: 0.9rem;
+            }
+        
+        
+            .Ipad_pro_query_texts > a {
+                text-decoration: none;
+                color:#0071E3;
+                margin: 0.1rem;
+                font-size: 1.1rem;
+            }
+        
+
+
+
+
+            /* watch and mom queries */
+
+            .Apple_watch {
+                display:none;
+            }
+
+            .Moms_day {
+                display:none;
+            }
+
+            .watch_nd_mom_query {
+                display:flex;
+    
+            }
+    
+            .watch_nd_mom_query > * {
+                width: 100%;
+            }
+
+
+
+
+        .moms_day_query {
+            margin: 0.5rem;
+        }
+      
+
+        .moms_day_query_texts{
+            display:inline-block;
+            margin-top: 0px;
+            background: url("Images/moms.jpg");
+            width: 100%;    
+            background-size: cover;             
+            background-repeat:no-repeat;
+            background-position: center center; 
+            height: 85vh;
+            text-align: center;
+            text-decoration: none;
+            color:white;
+            position: relative;
+            padding:1rem;
+            }
+    
+    
+            .moms_day_query_texts> h2 {
+                font-size: 2rem;
+                color:black;
+            }
+    
+    
+    
+    
+            .moms_day_query_texts > a {
+            text-decoration: none;
+            color:#0071E3;
+            margin: 0.1rem;
+            font-size: 1.1rem;
+            display: block;
+        }
+
+
+
+
+              /* Apple watch */
+
+     .apple_watch_query {
+        margin: 0.5rem;
+     }
+
+     .apple_watch_query_texts {
+        display:inline-block;
+        margin-top: 0px;
+        background: url("Images/watch.jpg");
+        width: 100%;    
+        background-size: cover;             
+        background-repeat:no-repeat;
+        background-position: center center; 
+        height: 85vh;
+        text-align: center;
+        text-decoration: none;
+        color:white;
+        position: relative;
+        padding:1rem;
+        }
+
+
+    .apple_watch_query_texts > img {
+        height:3.5rem;
+        margin-top: 0.5rem;
+    }
+
+
+    .apple_watch_query_texts > a {
+        text-decoration: none;
+        color:#0071E3;
+        margin: 0.1rem;
+        font-size: 1.1rem;
+    }
+
+
+   
+
+
+
+    /* card_nd_the_year_query */
+
+    .card {
+        display:none;
+    }
+
+    .the_year {
+        display:none;
+    }
+
+    .card_nd_year_query {
+        display:flex;
+    }
+
+
+    .card_nd_year_query > * {
+       width: 100%;
+    }
+
+    .card_query {
+        margin: 0.5rem;
+    }
+
+    .card_query_texts{
+        display:inline-block;
+        margin-top: 0px;
+        background: url("Images/card.jpg");
+        width: 100%;    
+        background-size: cover;             
+        background-repeat:no-repeat;
+        background-position: center center; 
+        height: 85vh;
+        text-align: center;
+        text-decoration: none;
+        color:black;
+        position: relative;
+        padding:1rem;
+        }
+    
+        .card_query_texts > img {
+            height:1.9rem;
+        }
+    
+    
+        .card_query_texts > a {
+            text-decoration: none;
+            color:#0071E3;
+            margin: 0.1rem;
+            font-size: 1.1rem;
+            display: block;
+        }
+    
+    
+        
+    
+        .the_year_query {
+            margin: 0.5rem;
+        }
+      
+        .the_year_query_texts{
+            display:inline-block;
+            margin-top: 0px;
+            background: url("Images/penguin.jpg");
+            width: 100%;    
+            background-size: cover;             
+            background-repeat:no-repeat;
+            background-position: center center; 
+            height: 85vh;
+            text-align: center;
+            text-decoration: none;
+            color:black;
+            position: relative;
+            padding:2rem;
+            display:flex;
+            flex-direction: column;
+            align-items:  center;
+            }
+        
+    
+    
+    
+        .the_year_query_texts > img {
+            height:1.9rem;
+            
+        }
+    
+        .the_year_query_writing_img {
+            height:3rem !important;
+        }
+    
+        .the_year_query_texts > p {
+            position: absolute;
+            top:80%;
+            text-align: center;
+            color:white;
+        }
+    
+    
+        .the_year_query_texts > a {
+            position: absolute;
+            top:90%;
+           
+            text-align: center;
+            color:white;
+            text-decoration: none;
+        }
+
+
+
+
+
+
+
+
+        /* footer*/
+
+        .footer_drops {
+            display:none;
+        }
+        
+        .footer_texts {
+            margin-top: 0px;
+            padding-left:9rem;
+            padding-right:9rem;
+            padding-top:0.5rem;
+        }
+
+        
+        .footer_drops_query_box {
+            display: flex;
+            margin-top: 0px;
+            padding-left:9rem;
+            padding-right:9rem;
+        }
+
+        .footer_drops_query_box > * {
+            width: 100%;
+        }
+
+
+
+        .footer_drops_query_box a {
+            display:block;
+            text-decoration: none;
+             color:#777777;
+             font-size: 0.8rem;
+             margin:0.8rem;
+        }
+
+        .footer_drops_query_box p {
+            margin:0.8rem;
+        }
+
+
+
+
+        .footer_end {
+            display:none;
+        }
+
+        .copy_rights {
+            display:none;
+        }
+
+        .footer_end_query_box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color:#777777;
+            font-size: 0.9rem;
+        }
+
+        .footer_drops_query_box a:hover {
+            text-decoration: underline;
+        }
+
+        .footer_end_query {
+            display: inline;
+         
+        }
+
+        .footer_end_query a{
+            color:#0071E3;
+            text-decoration: none;
+         
+        }
+
+
+
+        .footer_end_query a:hover{
+            text-decoration: underline;
+         
+        }
+
+
+        .copy_rights_query {
+            display: inline;
+            display: flex;
+            justify-content: space-between;
+            padding:0.9rem;
+         
+        }
+
+        .copy_rights_query a {
+            color:#777777;
+            text-decoration: none;
+        }
+
+        .copy_rights_query a:hover {
+          
+            text-decoration: underline;
+        }
+
+
+
+
+
+
+       
+
 
 
 }
